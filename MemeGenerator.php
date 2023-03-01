@@ -1,4 +1,5 @@
 <?php
+include("config.php");
 include_once "MemeGeneratorClass.php";
 $image = $_REQUEST['image'];
 $obj = new MemeGenerator($image);
